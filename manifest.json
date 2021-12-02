@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Card Validator Params",
+  "description": "Allow the user to set parameters for the Twitter card validator.",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "js": ["foreground.js"],
+      "matches": ["https://cards-dev.twitter.com/validator*"]
+    }
+  ]
+}
